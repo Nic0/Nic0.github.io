@@ -1,0 +1,8 @@
+url: http://www.nicosphere.net
+markdown: rdiscount
+pygments: true
+permalink: /:title/
+#paginate: 30
+pagination_dir: /
+rdiscount:
+  extensions: [smart]

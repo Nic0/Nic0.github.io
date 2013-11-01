@@ -1,0 +1,15 @@
+---
+layout: layout
+title: "Programming And Linux Blog"
+---
+
+<div class="content">
+
+  <div class="related">
+    <ul>
+      {% for post in site.posts %}
+        {% include post_overview.html %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
